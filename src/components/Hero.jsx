@@ -4,7 +4,7 @@ import { FaBookOpen } from "react-icons/fa6";
 
 const title = (
   <>
-    Read, listen, discover.
+    Set, Read, Go!
     <br />
     All in one app.
   </>
@@ -21,7 +21,7 @@ export const Hero = () => {
   return (
     <section className='bg-center bg-no-repeat text-gray-900 dark:bg-gray-900 dark:text-white'>
       <div className='px-4 mx-auto max-w-screen-xl text-center pt-24 lg:pt-24 lg:pb-16'>
-        <FaBookOpen className='mx-auto text-8xl bg-orange-400 py-3 px-4 mb-5 rounded-3xl text-white dark:bg-transparent dark:border-white dark:border-2' />  
+        <FaBookOpen className='mx-auto text-8xl bg-orange-400 py-3 px-4 mb-5 rounded-3xl text-white dark:bg-transparent dark:border-white dark:border-2' />
         <h1 className='mb-4 text-4xl font-extrabold tracking-tight leading-none  md:text-5xl lg:text-6xl'>{title}</h1>
         <p className='mb-8 text-lg font-normal  lg:text-xl sm:px-16 lg:px-48'>{description}</p>
         <div className='flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0'>
